@@ -4,7 +4,7 @@ remote_theme: torrocus/jekyll_theme
 url: https://torrocus.com
 
 colors:
-  background: #1a222c
+  background: '#1a222c'
 
 contact_form:
   buttons:
