@@ -22,7 +22,7 @@ exclude: ['node_modules', 'package.json', 'src']
 meta:
   default_locale: en
   description: Programming is a way of life for me. And Ruby is my favorite programming language. I create internet applications in Ruby on Rails and I am proud of it.
-  locale: mul
+  locale: en
   title: Web developer with experience in Ruby, Backbone.js, PostgreSQL, Linux
 
 user:
@@ -65,4 +65,4 @@ about:
       icons: ['git-original-wordmark', 'debian-original-wordmark', 'ubuntu-plain-wordmark', 'heroku-original-wordmark', 'amazonwebservices-original-wordmark', 'docker-original-wordmark', 'nginx-original'] # 'linux-original' (it is black)
   settings:
     icon_format: svg # font / svg
-    icon_width: 75px
+    icon_width: 75
