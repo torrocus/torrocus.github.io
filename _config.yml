@@ -23,6 +23,7 @@ meta:
   default_locale: en
   description: Programming is a way of life for me. And Ruby is my favorite programming language. I create internet applications in Ruby on Rails and I am proud of it.
   locale: en
+  manifest_file: '/manifest.json'
   title: Web developer with experience in Ruby, Backbone.js, PostgreSQL, Linux
 
 user:
