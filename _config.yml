@@ -47,7 +47,7 @@ user_profiles:
   youtube_id: UC-v15KnfdoVbgBlr54-edog
 
 web_analytics:
-  google_analytics_id:
+  google_analytics_id: 'UA-62202006-13'
 
 about:
   sections:

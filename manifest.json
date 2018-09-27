@@ -1,0 +1,37 @@
+{
+  "author": "torrocus",
+  "background_color": "#1a222c",
+  "default_locale": "en",
+  "developer": {
+    "name": "torrocus",
+    "url": "https://torrocus.com"
+  },
+  "display": "fullscreen",
+  "manifest_version": 2,
+  "name": "Web developer welcomes you on him website",
+  "short_name": "Webdeveloper",
+  "start_url": "/?utm_source=homescreen",
+  "theme_color": "#1a222c",
+  "icons": [
+    {
+      "src": "https://torrocus.com/assets/manifest/icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://torrocus.com/assets/manifest/icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://torrocus.com/assets/manifest/icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://torrocus.com/assets/manifest/icon-8x.png",
+      "type": "image/png",
+      "sizes": "344x344"
+    }
+  ]
+}
