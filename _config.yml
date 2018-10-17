@@ -17,7 +17,12 @@ contact_form:
   subject: New message - contact form
   url_after_sent: https://localhost:3000
 
-exclude: ['node_modules', 'package.json', 'src']
+exclude: ['gulpfile.js', 'node_modules', 'package.json', 'package-lock.json', 'src']
+
+links:
+  blog:
+    title: Less is more
+    url: /blog
 
 meta:
   default_locale: en
@@ -48,7 +53,7 @@ user_profiles:
   youtube_id: UC-v15KnfdoVbgBlr54-edog
 
 web_analytics:
-  google_analytics_id: 'UA-62202006-13'
+  google_analytics_id: 'UA-127739651-1'
 
 about:
   sections:
