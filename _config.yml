@@ -1,7 +1,7 @@
 # Site settings
 baseurl: ''
 remote_theme: torrocus/jekyll_theme
-url: https://torrocus.com
+url: &url https://torrocus.com
 
 colors:
   background: '#1a222c'
@@ -15,9 +15,9 @@ contact_form:
     message: Leave a message
     name: Your name
   subject: New message - contact form
-  url_after_sent: https://localhost:3000
+  url_after_sent: *url
 
-exclude: ['gulpfile.js', 'node_modules', 'package.json', 'package-lock.json', 'src']
+exclude: ['Gemfile', 'gulpfile.js', 'node_modules', 'package.json', 'package-lock.json', 'src']
 
 links:
   blog:
