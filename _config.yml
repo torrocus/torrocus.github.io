@@ -17,7 +17,7 @@ contact_form:
   subject: New message - contact form
   url_after_sent: *url
 
-exclude: ['.ruby-gemset', '.ruby-version', 'Gemfile', 'Gemfile.lock', 'README.md', 'gulpfile.js', 'node_modules', 'package.json', 'package-lock.json', 'src']
+exclude: ['.ruby-gemset', '.ruby-version', 'CODE_OF_CONDUCT.md', 'Gemfile', 'Gemfile.lock', 'README.md', 'gulpfile.js', 'node_modules', 'package.json', 'package-lock.json', 'src']
 
 links:
   blog:
