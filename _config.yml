@@ -33,6 +33,7 @@ meta:
 
 user:
   email:
+  encrypted_email_address: YWxlaytob21lcGFnZUB0b3Jyb2N1cy5jb20=
   name: Alex Malaszkiewicz
   title: Full-Stack Developer
 
