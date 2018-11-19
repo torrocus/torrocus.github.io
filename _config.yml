@@ -73,3 +73,7 @@ about:
   settings:
     icon_format: svg # font / svg
     icon_width: 75
+
+settings:
+  contact_form: false
+  projects: false
