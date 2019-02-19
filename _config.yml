@@ -1,7 +1,17 @@
 # Site settings
 baseurl: ''
-remote_theme: torrocus/jekyll_theme
 url: &url https://torrocus.com
+
+# Meta settings
+meta:
+  default_locale: en
+  description: Programming is a way of life for me. And Ruby is my favorite programming language. I create internet applications in Ruby on Rails and I am proud of it.
+  locale: en
+  manifest_file: '/manifest.json'
+  title: Web developer with experience in Ruby, Backbone.js, PostgreSQL, Linux
+
+# Theme settings
+remote_theme: torrocus/jekyll_theme
 
 colors:
   background: '#1a222c'
@@ -21,15 +31,11 @@ exclude: ['.ruby-gemset', '.ruby-version', 'CODE_OF_CONDUCT.md', 'Gemfile', 'Gem
 
 links:
   blog:
-    title: Less is more
-    url: /blog
-
-meta:
-  default_locale: en
-  description: Programming is a way of life for me. And Ruby is my favorite programming language. I create internet applications in Ruby on Rails and I am proud of it.
-  locale: en
-  manifest_file: '/manifest.json'
-  title: Web developer with experience in Ruby, Backbone.js, PostgreSQL, Linux
+    title: Less is more - technical blog
+    url: /blog/
+  cv:
+    title: Resume of Ruby developer
+    url: /cv/
 
 user:
   email:
@@ -38,7 +44,15 @@ user:
   title: Full-Stack Developer
 
 user_details:
-  description: I'm <strong>web developer</strong>. Technology is my tool. I deal with <strong>process' automation</strong> and <strong>problem solving</strong> using algorithms. I make life easier and I make dreams come true. I help startups and undertake difficult challenges with pleasure. Whenever I can, I share my knowledge and skills. I work as a freelancer, team member, leader or entrepreneur. I am ready to help you develop your business.
+  description: |
+    I'm <strong>web developer</strong>.
+    Technology is my tool.
+    I deal with <strong>process' automation</strong> and <strong>problem solving</strong> using algorithms.
+    I make life easier and I make dreams come true.
+    I help startups and undertake difficult challenges with pleasure.
+    Whenever I can, I share my knowledge and skills.
+    I work as a freelancer, team member, leader or entrepreneur.
+    I am ready to help you develop your business.
   headline: My Expertise
 
 user_profiles:
@@ -59,15 +73,32 @@ web_analytics:
 about:
   sections:
     backend:
-      description: When I create <strong>web applications</strong>, I choose technologies and tools appropriate for the problem being solved. Based on my experience, I know that changing the programming language or framework will not change problems in the <strong>application's architecture</strong>. Personally, I prefer <strong>stable and secure solutions</strong> over fashionable solutions.
+      description: |
+        When I create <strong>web applications</strong>, I choose technologies and tools appropriate for the problem being solved.
+        Based on my experience, I know that changing the programming language or framework will not change problems in the <strong>application's architecture</strong>.
+        Personally, I prefer <strong>stable and secure solutions</strong> over fashionable solutions.
       headline: Backend
       icons: ['ruby-original-wordmark', 'rails-original-wordmark', 'postgresql-original-wordmark', 'mysql-original-wordmark', 'redis-original-wordmark']
     frontend:
-      description: As users, we evaluate each application used by us. Visual impressions and attractive appearance make some of them more enjoyable and we return to them more willingly. I'm not a graphic designer. But I've been working on many applications and websites. I know that appearance and <strong>usability</strong> are the first things the user pays attention to. I also know how important the <strong>accesibility</strong> of websites for blind people is and how they see website search engines. I want my <strong>IT solutions</strong> to have no barriers. That's why I use <strong>best practices</strong> and generally available standards.
+      description: |
+        As users, we evaluate each application used by us.
+        Visual impressions and attractive appearance make some of them more enjoyable and we return to them more willingly.
+        I'm not a graphic designer.
+        But I've been working on many applications and websites.
+        I know that appearance and <strong>usability</strong> are the first things the user pays attention to.
+        I also know how important the <strong>accesibility</strong> of websites for blind people is and how they see website search engines.
+        I want my <strong>IT solutions</strong> to have no barriers.
+        That's why I use <strong>best practices</strong> and generally available standards.
       headline: Frontend
       icons: ['html5-original-wordmark', 'css3-original-wordmark', 'less-plain-wordmark', 'sass-original', 'bootstrap-plain-wordmark', 'foundation-original-wordmark', 'coffeescript-original-wordmark', 'backbonejs-original-wordmark', 'javascript-original', 'gimp-original-wordmark']
     tools:
-      description: Programming languages and frameworks are not everything. As a <strong>programmer</strong>, I use many tools that improve my everyday work. I know different <strong>version-control systems</strong> and a code sharing platform. I deploy to production using a variety of tools. All of these affect the way of me working more efficiently and help me with working in teams. And <strong>teamwork</strong> is the foundation of success.
+      description: |
+        Programming languages and frameworks are not everything.
+        As a <strong>programmer</strong>, I use many tools that improve my everyday work.
+        I know different <strong>version-control systems</strong> and a code sharing platform.
+        I deploy to production using a variety of tools.
+        All of these affect the way of me working more efficiently and help me with working in teams.
+        And <strong>teamwork</strong> is the foundation of success.
       headline: Tools
       icons: ['git-original-wordmark', 'debian-original-wordmark', 'ubuntu-plain-wordmark', 'heroku-original-wordmark', 'amazonwebservices-original-wordmark', 'docker-original-wordmark', 'nginx-original'] # 'linux-original' (it is black)
   settings:
