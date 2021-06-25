@@ -8,7 +8,7 @@ meta:
   description: Programming is a way of life for me. And Ruby is my favorite programming language. I create internet applications in Ruby on Rails and I am proud of it.
   locale: en
   manifest_file: '/manifest.json'
-  title: Web developer with experience in Ruby, Backbone.js, PostgreSQL, Linux
+  title: Web developer with experience in Ruby, JavaScript, PostgreSQL, Linux
 
 # Theme settings
 remote_theme: torrocus/jekyll_theme
@@ -90,7 +90,7 @@ about:
         I want my <strong>IT solutions</strong> to have no barriers.
         That's why I use <strong>best practices</strong> and generally available standards.
       headline: Frontend
-      icons: ['html5-original-wordmark', 'css3-original-wordmark', 'less-plain-wordmark', 'sass-original', 'bootstrap-plain-wordmark', 'foundation-original-wordmark', 'coffeescript-original-wordmark', 'backbonejs-original-wordmark', 'javascript-original', 'gimp-original-wordmark']
+      icons: ['html5-original-wordmark', 'css3-original-wordmark', 'less-plain-wordmark', 'sass-original', 'bootstrap-plain-wordmark', 'foundation-original-wordmark', 'coffeescript-original-wordmark', 'backbonejs-original-wordmark', 'react-original-wordmark', 'javascript-original', 'gimp-original-wordmark']
     tools:
       description: |
         Programming languages and frameworks are not everything.
