@@ -78,7 +78,7 @@ about:
         Based on my experience, I know that changing the programming language or framework will not change problems in the <strong>application's architecture</strong>.
         Personally, I prefer <strong>stable and secure solutions</strong> over fashionable solutions.
       headline: Backend
-      icons: ['ruby-original-wordmark', 'rails-original-wordmark', 'postgresql-original-wordmark', 'mysql-original-wordmark', 'redis-original-wordmark']
+      icons: ['ruby-original-wordmark', 'rails-original-wordmark', 'postgresql-original-wordmark', 'mysql-original-wordmark', 'sqlite-original-wordmark', 'redis-original-wordmark', 'mongodb-original-wordmark']
     frontend:
       description: |
         As users, we evaluate each application used by us.
@@ -90,7 +90,7 @@ about:
         I want my <strong>IT solutions</strong> to have no barriers.
         That's why I use <strong>best practices</strong> and generally available standards.
       headline: Frontend
-      icons: ['html5-original-wordmark', 'css3-original-wordmark', 'less-plain-wordmark', 'sass-original', 'bootstrap-plain-wordmark', 'foundation-original-wordmark', 'coffeescript-original-wordmark', 'backbonejs-original-wordmark', 'react-original-wordmark', 'javascript-original', 'gimp-original-wordmark']
+      icons: ['html5-original-wordmark', 'css3-original-wordmark', 'less-plain-wordmark', 'sass-original', 'bootstrap-plain-wordmark', 'foundation-original-wordmark', 'javascript-original', 'coffeescript-original-wordmark', 'react-original-wordmark', 'backbonejs-original-wordmark', 'gimp-original-wordmark']
     tools:
       description: |
         Programming languages and frameworks are not everything.
@@ -100,10 +100,10 @@ about:
         All of these affect the way of me working more efficiently and help me with working in teams.
         And <strong>teamwork</strong> is the foundation of success.
       headline: Tools
-      icons: ['git-original-wordmark', 'debian-original-wordmark', 'ubuntu-plain-wordmark', 'heroku-original-wordmark', 'amazonwebservices-original-wordmark', 'docker-original-wordmark', 'nginx-original'] # 'linux-original' (it is black)
+      icons: ['git-original-wordmark', 'github-original-wordmark', 'linux-original', 'debian-original-wordmark', 'ubuntu-plain-wordmark', 'heroku-original-wordmark', 'digitalocean-original', 'amazonwebservices-original-wordmark', 'googlecloud-original', 'docker-original-wordmark', 'terraform-original-wordmark', 'nginx-original']
   settings:
     icon_format: svg # font / svg
-    icon_width: 75
+    icon_width: 60
 
 settings:
   contact_form: false
