@@ -67,10 +67,10 @@ user_details:
   headline: My Expertise
 
 user_profiles:
-  bitbucket: torrocus
+  # bitbucket: torrocus
   facebook:
   github: torrocus
-  gitlab: torrocus
+  # gitlab: torrocus
   instagram: torrocus
   linkedin: torrocus
   stackoverflow_id: 2883890
